@@ -10,6 +10,7 @@
 }
 
 ul {
+  margin: 0;
   flex: 1;
   list-style: none;
   text-align: center;
