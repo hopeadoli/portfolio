@@ -1,6 +1,10 @@
 import styles from "./herosection.module.css";
+// import { Link } from "react-router-dom";
 
 export default function HeroSection() {
+  function handleRoute(e) {
+    e.preventDefault;
+  }
   return (
     <>
       <div className={styles.hero}>
@@ -20,6 +24,7 @@ export default function HeroSection() {
             have worked alongside business leaders, startup founders and
             individuals to build digital products that users love and cherish.
           </p>
+
           <p className="link">Learn more about me</p>
         </div>
         <p className={styles.myImg}>x</p>

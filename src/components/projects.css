@@ -38,12 +38,13 @@ h2 {
 
 .link {
   color: #fff;
-  text-decoration: underline rgba(255, 255, 255, 0.7);
+  text-decoration: underline rgba(255, 255, 255, 0.497);
+  cursor: pointer;
 }
 
 .link:hover {
   transition: all 0.2s ease-in-out;
-  text-decoration: underline rgba(255, 255, 255);
+  text-decoration: underline rgb(255, 255, 255);
 }
 
 .screenshot {
