@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  bottom: 5%;
+  bottom: 2%;
   left: 50%;
   width: max-content;
   transform: translate(-50%);
@@ -39,3 +39,12 @@ ul li:nth-child(1) {
 ul li:not(:first-child) {
   color: rgba(255, 255, 255, 0.7);
 }
+
+/* Media query */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 2%;
+  }
+} */
