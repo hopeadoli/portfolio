@@ -21,8 +21,7 @@ export default function Projects() {
             Internet Service Providers.
           </p>
           <p className="link">
-            Visit website
-            <ArrowUpIcon />
+            Visit website <ArrowUpIcon />
           </p>
           <img
             className="screenshot"

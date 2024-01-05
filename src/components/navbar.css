@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 5%;
   left: 50%;
+  width: max-content;
   transform: translate(-50%);
   border-radius: 32px;
   border: 1px solid #1f1f1f;
