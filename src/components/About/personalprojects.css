@@ -1,0 +1,51 @@
+.project {
+  margin-top: 24px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.personalprojects {
+  margin-top: 24px;
+  width: 90%;
+}
+
+.personalprojects p.sectionHeader {
+  margin: 0;
+}
+
+.mg0 {
+  margin: 0;
+}
+
+.projectTitle {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.projectDesc img {
+  margin-top: 16px;
+  width: 100%;
+}
+/* Media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .personalprojects {
+    width: 100%;
+  }
+
+  .personalprojects svg {
+    margin-top: -16px;
+    width: 50px;
+  }
+
+  .personalprojects {
+    width: 100%;
+  }
+}

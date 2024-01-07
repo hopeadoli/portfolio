@@ -1,6 +1,7 @@
-import ArrowUpIcon from "../assets/ArrowUpIcon";
+import ArrowUpIcon from "../../assets/ArrowUpIcon";
 import "./projects.css";
-import screenshot from "../assets/screenshot.png";
+import screenshot from "../../assets/screenshot.png";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -20,9 +21,13 @@ export default function Projects() {
             Designed a marketing website for one of Tanzania’s most loved
             Internet Service Providers.
           </p>
-          <p className="link">
-            Visit website <ArrowUpIcon />
-          </p>
+
+          <Link to="https://cnn.com" target="blank">
+            <p className="link">
+              Visit website
+              <ArrowUpIcon />
+            </p>
+          </Link>
           <img
             className="screenshot"
             src={screenshot}

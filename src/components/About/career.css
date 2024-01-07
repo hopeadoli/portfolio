@@ -1,0 +1,69 @@
+.career {
+  width: 90%;
+}
+.history {
+  margin-top: 40px;
+}
+
+.mainStuff {
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mainStuff:nth-child(4) {
+  border-bottom: none;
+}
+
+.careerTitle {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-top: 24px;
+}
+
+p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
+.dateTime {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateTime p {
+  margin: 0;
+}
+
+.clientLogos {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.clientLogos img {
+  width: 31%;
+}
+
+/* Media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .career {
+    width: 100%;
+  }
+
+  .clientLogos {
+    gap: 8px;
+  }
+}
