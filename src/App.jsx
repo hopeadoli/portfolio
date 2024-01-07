@@ -7,16 +7,14 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<Gallery />} />
-        </Routes>
-      </div>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+    </div>
   );
 }
 

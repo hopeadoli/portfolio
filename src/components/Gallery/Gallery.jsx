@@ -1,4 +1,5 @@
 import "./gallery.css";
+import "../../assets/ember.mp3";
 
 export default function Gallery() {
   return (
