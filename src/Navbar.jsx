@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <ul>
-        <li>
+        <li className="active">
           <CustomLink to="/">Home</CustomLink>
         </li>
         <li>
