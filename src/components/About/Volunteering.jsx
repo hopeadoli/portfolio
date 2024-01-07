@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import DJCAfrica from "../../assets/pprojectlogos/DJCAfrica";
 import DjangoGirls from "../../assets/pprojectlogos/DjangoGirls";
-import DjangoLogo from "../../assets/pprojectlogos/djangoLogo";
+import DjangoLogo from "../../assets/pprojectlogos/DjangoLogo";
 import "./volunteering.css";
 
 export default function Volunteering() {

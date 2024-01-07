@@ -1,5 +1,5 @@
 .heroSection {
-  margin: 25% 0px 96px 0px;
+  margin: 25% 0 56px 0;
 }
 
 .aboutHeader {
@@ -9,55 +9,20 @@
   border-radius: 32px;
   border: 1px solid #202020;
   width: max-content;
-  margin: 0 auto 56px auto;
+  margin: 56px auto 56px auto;
   background: #000;
   box-shadow: 0px 4px 4px 0px rgba(101, 101, 101, 0.31) inset;
 }
 
-.meOne {
-  margin: 0 auto;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  width: 35%;
-}
-
-.meTwo {
-  z-index: 20;
-  margin-top: 56px;
-  rotate: 7deg;
-  width: 60%;
-  animation: rotate 1.2s reverse;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-
-.meThree {
-  rotate: 266deg;
-  width: 55%;
-  animation: rotate 18s linear;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -5s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(180deg);
-  }
-}
-
-.bottomTwo {
-  overflow: hidden;
-  min-width: 20%;
-  will-change: width;
+.bottomThree {
+  overflow: scroll;
   display: flex;
   gap: 12px;
   left: 45%;
-  transform: translate(-15%);
   justify-content: space-between;
-  margin: 136px auto 0 auto;
+  margin: 56px auto 0 auto;
+}
+
+.mepics {
+  width: 60%;
 }
