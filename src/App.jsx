@@ -3,13 +3,13 @@ import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Home from "./components/Home/Home";
 import NoPage from "./components/NoPage";
-import styles from "./Components/Home/home.module.css";
 import { Route, Routes } from "react-router-dom";
+import styles from "./Components/Home/home.module.css";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar className={styles.nothing} />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
