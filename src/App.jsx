@@ -4,12 +4,11 @@ import Gallery from "./components/Gallery/Gallery";
 import Home from "./components/Home/Home";
 import NoPage from "./components/NoPage";
 import { Route, Routes } from "react-router-dom";
-import styles from "./Components/Home/home.module.css";
 
 function App() {
   return (
     <>
-      <Navbar className={styles.nothing} />
+      <Navbar />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />

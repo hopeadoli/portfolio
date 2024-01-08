@@ -11,6 +11,20 @@ body {
   margin: 0 auto;
 }
 
+.netlifyAnnoying {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.netlifyAnnoying h1 {
+  color: #fff;
+}
+
 /* Media query */
 
 /* Extra small devices (phones, 600px and down) */
