@@ -28,6 +28,7 @@ Link {
 .projectText {
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 
 .projectText p {

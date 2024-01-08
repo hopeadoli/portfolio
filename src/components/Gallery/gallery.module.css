@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Qalisso";
+  /* src: local("QalissoItalic"); */
+  src: url("../../Fonts/Qalisso.woff") format("woff");
+}
+
+.QalissoText {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.QalissoText p:nth-child(2) {
+  margin-top: 56px;
+  font-family: "Qalisso";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 64px;
+  color: #fff;
+}
+
+.comingSoonHeader {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 8px 12px;
+  border-radius: 32px;
+  border: 1px solid #202020;
+  width: max-content;
+  background: #000;
+  box-shadow: 0px 4px 4px 0px rgba(101, 101, 101, 0.31) inset;
+}
+
+.images {
+  z-index: -2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  column-gap: 281px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images img {
+  width: 34%;
+}
+
+.images img:nth-child(2) {
+  width: 50%;
+}
+
+/* overlay */
+
+.blankOverlay::before {
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: #000000b1;
+  position: absolute;
+  left: 0;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 600px) {
+  .QalissoText {
+    width: 90%;
+  }
+
+  .QalissoText p:nth-child(2) {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .images {
+    column-gap: 72px;
+  }
+
+  .images img {
+    margin-top: -200px;
+    width: 64%;
+  }
+
+  .images img:nth-child(2) {
+    margin-top: 170px;
+    width: 90%;
+  }
+}

@@ -1,23 +1,19 @@
-import "./gallery.css";
-import img1 from "./img1.jpeg";
-import img2 from "./img2.jpeg";
+import ForeText from "./ForeText";
+import Images from "./Images";
 import { Helmet } from "react-helmet";
+import styles from "./gallery.module.css";
 
 export default function Gallery() {
   return (
-    <>
+    <div className={styles.body}>
       <Helmet>
         <meta charSet="utf-8" />
         <title>The Yeʋekpɔme Gallery by Hope Adoli</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://uxkafui.co" />
       </Helmet>
-      <div className="container">
-        <h1>Gallery</h1>
-        <div className="images">
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-        </div>
-      </div>
-    </>
+      <div className={styles.blankOverlay}></div>
+      <ForeText />
+      <Images />
+    </div>
   );
 }

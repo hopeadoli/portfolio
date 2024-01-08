@@ -8,9 +8,7 @@ html {
   background-color: #000;
 }
 body {
-  /* width: 50%; */
   margin: 0 auto;
-  color: #fff;
 }
 
 /* Media query */
@@ -44,10 +42,3 @@ body {
     width: 50%;
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {
-  body {
-    width: 50%;
-  }
-} */

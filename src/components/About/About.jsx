@@ -12,7 +12,7 @@ export default function About() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>About⎯Hope Adoli</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://uxkafui.co" />
       </Helmet>
       <Hero />
       <Career />

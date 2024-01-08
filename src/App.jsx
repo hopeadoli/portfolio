@@ -2,7 +2,8 @@ import Navbar from "./Navbar";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Home from "./components/Home/Home";
-import "./components/app.css";
+import NoPage from "./components/NoPage";
+import styles from "./Components/Home/home.module.css";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </div>
     </>
