@@ -1,4 +1,4 @@
-import styles from "./gallery.module.css";
+import styles from "./fortext.module.css";
 import { Link } from "react-router-dom";
 
 export default function ForeText() {
@@ -9,7 +9,7 @@ export default function ForeText() {
         The Gallery will <br /> house my paintings
       </p>
       <p className="link">
-        <Link to="https://cnn.com" target="blank">
+        <Link to="https://forms.gle/veX5b7kPEzH9XZ9S8" target="blank">
           Get to know when it opens
         </Link>
       </p>

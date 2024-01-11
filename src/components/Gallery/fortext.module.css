@@ -34,29 +34,9 @@
   box-shadow: 0px 4px 4px 0px rgba(101, 101, 101, 0.31) inset;
 }
 
-.images {
-  z-index: -2;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  column-gap: 281px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.images img {
-  width: 34%;
-}
-
-.images img:nth-child(2) {
-  width: 50%;
-}
-
 /* overlay */
 
-.blankOverlay::before {
+/* .blankOverlay::before {
   z-index: -1;
   content: "";
   width: 100%;
@@ -64,7 +44,7 @@
   background-color: #000000b1;
   position: absolute;
   left: 0;
-}
+} */
 
 /* Media query */
 
@@ -76,19 +56,5 @@
   .QalissoText p:nth-child(2) {
     font-size: 30px;
     line-height: 44px;
-  }
-
-  .images {
-    column-gap: 72px;
-  }
-
-  .images img {
-    margin-top: -200px;
-    width: 64%;
-  }
-
-  .images img:nth-child(2) {
-    margin-top: 170px;
-    width: 90%;
   }
 }

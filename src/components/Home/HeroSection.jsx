@@ -26,7 +26,7 @@ export default function HeroSection() {
             <p>Learn more about me</p>
           </Link>
         </div>
-        <p className={styles.myImg}>x</p>
+        {/* <img className={styles.myImg}>x</img> */}
       </div>
     </>
   );
