@@ -9,20 +9,14 @@
   border-radius: 32px;
   border: 1px solid #202020;
   width: max-content;
-  margin: 56px auto 56px auto;
+  margin: 56px auto 6px auto;
   background: #000;
   box-shadow: 0px 4px 4px 0px rgba(101, 101, 101, 0.31) inset;
 }
 
-.bottomThree {
-  overflow: scroll;
-  display: flex;
-  gap: 12px;
-  left: 45%;
+.heroImg {
+  width: 100%;
+  height: auto;
   justify-content: space-between;
-  margin: 56px auto 0 auto;
-}
-
-.mepics {
-  width: 60%;
+  margin: 24px auto 0 auto;
 }

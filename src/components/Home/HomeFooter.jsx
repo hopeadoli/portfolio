@@ -3,6 +3,7 @@ import InstagramIcon from "../../assets/InstagramIcon";
 import "./homefooter.css";
 import EmailIcon from "../../assets/EmailIcon";
 import LinkedinIcon from "../../assets/LinkedinIcon";
+import DribbbleIcon from "../../assets/DribbbleIcon";
 
 export default function HomeFooter() {
   return (
@@ -11,6 +12,9 @@ export default function HomeFooter() {
         <p className="sectionHeader">get in touch</p>
         <p>Now you know that we’re match made in heaven eh? Let’s talk.</p>
         <div className="socialIcons">
+          <a href="https://dribbble.com/hopeadoli" target="blank">
+            <DribbbleIcon />
+          </a>
           <a href="https://linkedin.com/in/hopeadoli" target="blank">
             <LinkedinIcon />
           </a>

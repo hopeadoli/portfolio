@@ -1,5 +1,6 @@
 import styles from "./herosection.module.css";
 import { Link } from "react-router-dom";
+import myImg from "./myImg.jpg";
 
 export default function HeroSection() {
   return (
@@ -26,7 +27,7 @@ export default function HeroSection() {
             <p>Learn more about me</p>
           </Link>
         </div>
-        {/* <img className={styles.myImg}>x</img> */}
+        {<img src={myImg} className={styles.myImg}></img>}
       </div>
     </>
   );

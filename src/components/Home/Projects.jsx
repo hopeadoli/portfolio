@@ -1,6 +1,13 @@
 import ArrowUpIcon from "../../assets/ArrowUpIcon";
 import "./projects.css";
 import screenshot from "../../assets/screenshot.png";
+import korbaWeb from "../../assets/korba-web.png";
+import KorbaLandingPage from "../../assets/korba-landing.png";
+import MizormorTraveler from "../../assets/mizormor-traveler.png";
+import MizormorAgency from "../../assets/mizormor-agencies.png";
+import MizormorLanding from "../../assets/mizormor-landing.png";
+import AchieveApp from "../../assets/achieve.png";
+import GrainMate from "../../assets/grainmate.png";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
@@ -10,7 +17,7 @@ export default function Projects() {
         <p className="sectionHeader">work</p>
 
         {/* 1 Habari website */}
-        <div className="workContainer">
+        {/* <div className="workContainer">
           <div className="projectText">
             <h2>
               Habari Node <span>website</span>
@@ -33,10 +40,10 @@ export default function Projects() {
             src={screenshot}
             alt="habari website screenshot"
           />
-        </div>
+        </div> */}
 
         {/* 2 MyNetwork App */}
-        <div className="workContainer">
+        {/* <div className="workContainer">
           <div className="projectText">
             <h2>
               MyNetwork <span>app</span>
@@ -57,33 +64,10 @@ export default function Projects() {
             src={screenshot}
             alt="habari website screenshot"
           />
-        </div>
-
-        {/* 3 Korba website */}
-        <div className="workContainer">
-          <div className="projectText">
-            <h2>
-              Korba <span>website</span>
-            </h2>
-            <p>2024</p>
-          </div>
-          <p>
-            Collaborated with Halges Technologies to design a new marketing
-            website that converts.
-          </p>
-          <p className="link">
-            Visit website
-            <ArrowUpIcon />
-          </p>
-          <img
-            className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
-          />
-        </div>
+        </div> */}
 
         {/* 4 Korba mobile app */}
-        <div className="workContainer">
+        {/* <div className="workContainer">
           <div className="projectText">
             <h2>
               Korba mobile <span>app</span>
@@ -104,7 +88,7 @@ export default function Projects() {
             src={screenshot}
             alt="habari website screenshot"
           />
-        </div>
+        </div> */}
 
         {/* 5 Korba web app */}
         <div className="workContainer">
@@ -119,19 +103,16 @@ export default function Projects() {
             platform “Korba web” which currently helps more than 300,000 people
             to easily send and receive money, pay utilities and more.
           </p>
-          <p className="link">
-            Visit app
-            <ArrowUpIcon />
-          </p>
+          <p>Coming soon ⏳</p>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={korbaWeb}
+            alt="Korba web app screenshot"
           />
         </div>
 
         {/* 6 Korba POS */}
-        <div className="workContainer">
+        {/* <div className="workContainer">
           <div className="projectText">
             <h2>
               Korba <span>POS</span>
@@ -151,6 +132,26 @@ export default function Projects() {
             src={screenshot}
             alt="habari website screenshot"
           />
+        </div> */}
+
+        {/* 3 Korba website */}
+        <div className="workContainer">
+          <div className="projectText">
+            <h2>
+              Korba <span>website</span>
+            </h2>
+            <p>2023</p>
+          </div>
+          <p>
+            Collaborated with Halges Technologies to design a new marketing
+            website that converts.
+          </p>
+          <p>Coming Soon ⏳</p>
+          <img
+            className="screenshot"
+            src={KorbaLandingPage}
+            alt="Korba landing page"
+          />
         </div>
 
         {/* 7 Mizormor for Travelers */}
@@ -166,14 +167,23 @@ export default function Projects() {
             themselves or with the help of AI, as well as find experiences to
             book.
           </p>
-          <p className="link">
-            AppStore
-            <ArrowUpIcon />
-          </p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://apps.apple.com/gh/app/mizormor-plan-trips-tours/id1661002132"
+              target="blank"
+            >
+              <p>
+                AppStore
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
+
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={MizormorTraveler}
+            alt="Mizormor Traveler's app mock-up"
           />
         </div>
 
@@ -190,14 +200,22 @@ export default function Projects() {
             travel and tour operators to easily manage their business
             operations.
           </p>
-          <p className="link">
-            AppStore
-            <ArrowUpIcon />
-          </p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://apps.apple.com/gh/app/mizormor-agencies/id6443749925"
+              target="blank"
+            >
+              <p>
+                AppStore
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={MizormorAgency}
+            alt="Mizormor agencies mock-up"
           />
         </div>
 
@@ -214,14 +232,22 @@ export default function Projects() {
             travel and tour operators to easily manage their business
             operations.
           </p>
-          <p className="link">
-            Visit website
-            <ArrowUpIcon />
-          </p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://mizormor.com"
+              target="blank"
+            >
+              <p>
+                Visit site
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={MizormorLanding}
+            alt="Mizormor website screenshot"
           />
         </div>
 
@@ -237,14 +263,22 @@ export default function Projects() {
             The Achieve app helps Ghanaian millennials and GenZs to save and
             invest. Currently used by more than 200,000 people.
           </p>
-          <p className="link">
-            AppStore
-            <ArrowUpIcon />
-          </p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://apps.apple.com/gb/app/achieve-save-and-invest/id1532635527?platform=iphone"
+              target="blank"
+            >
+              <p>
+                AppStore
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={AchieveApp}
+            alt="Achieve app mock-up"
           />
         </div>
 
@@ -261,14 +295,22 @@ export default function Projects() {
             Grainmate mobile app that helps local farmers tackle Post-Harvest
             Losses (PHL).
           </p>
-          <p className="link">
-            Google Playstore
-            <ArrowUpIcon />
-          </p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://play.google.com/store/apps/details?id=com.sesitechnologies.grainmateapp"
+              target="blank"
+            >
+              <p>
+                Google Playstore
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={GrainMate}
+            alt="Grainmate app mock-up"
           />
         </div>
       </div>

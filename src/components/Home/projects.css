@@ -22,9 +22,14 @@ h2 {
   margin: 0;
 }
 
-Link {
+p link {
   text-decoration: none;
 }
+
+.divLink {
+  margin-top: 0;
+}
+
 .projectText {
   display: flex;
   justify-content: space-between;

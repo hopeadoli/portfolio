@@ -1,7 +1,5 @@
 import "./hero.css";
-import meOne from "../../assets/meOne.png";
-import meTwo from "../../assets/meTwo.png";
-import meThree from "../../assets/meThree.png";
+import heroImg from "../../assets/heroImg.png";
 
 export default function Hero() {
   return (
@@ -10,11 +8,13 @@ export default function Hero() {
         <p className="aboutHeader">
           <span>About </span>me
         </p>
-        <div className="bottomThree">
-          <img className="mepics" src={meOne} alt="" />
-          <img className="mepics" src={meTwo} alt="" />
-          <img className="mepics" src={meThree} alt="" />
-        </div>
+        <img
+          className="heroImg"
+          src={heroImg}
+          alt="A photo of Hope Adoli on a stage at Djangocon Africa, 
+          giving a talk. The photo is in black and white with DjangoCon 
+          Africa logo on a 10 x 20 banner blurred behind him"
+        />
       </div>
     </>
   );

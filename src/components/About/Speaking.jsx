@@ -6,10 +6,10 @@ export default function Speaking() {
     <div className="career">
       <div className="history notHistory">
         <p className="sectionHeader speak">speaking</p>
-        <p>I love contributing to the tech community.</p>
+        <p>Once in a while, I get the opportunity to speak.</p>
         <div>
           {/* Ubuntu Summit */}
-          <div className="mainStuff">
+          {/* <div className="mainStuff">
             <p className="careerTitle">
               <Link
                 className="companyLink"
@@ -23,10 +23,10 @@ export default function Speaking() {
               <p>Ubuntu Summit⎯Prague, Czech Republic 🇨🇿 </p>
               <p>1 Nov 2024</p>
             </div>
-          </div>
+          </div> */}
 
           {/* PyNam */}
-          <div className="mainStuff">
+          {/* <div className="mainStuff">
             <p className="careerTitle">
               <Link to="https://Walulel.com" target="blank">
                 The Creative Code-ination: Designers & Developers United
@@ -36,12 +36,15 @@ export default function Speaking() {
               <p>PyCon Namibia⎯Windhoek, Namibia 🇳🇦</p>
               <p>6 Mar 2024</p>
             </div>
-          </div>
+          </div> */}
 
           {/* UX Ghana */}
           <div className="mainStuff">
             <p className="careerTitle">
-              <Link to="https://Walulel.com" target="blank">
+              <Link
+                to="https://www.instagram.com/p/CgRGQPuqh0z/"
+                target="blank"
+              >
                 Becoming a better Freelancer
               </Link>
             </p>

@@ -3,7 +3,7 @@ import PaintBrush from "../../assets/pprojectlogos/PaintBrush";
 import "./personalprojects.css";
 import Lasgidi from "../../assets/pprojectlogos/Lasgidi";
 import UxcLogo from "../../assets/pprojectlogos/UxcLogo";
-import gallery from "../../assets/pprojectlogos/galleryBg.png";
+import gallery from "../../assets/pprojectlogos/gallery.png";
 
 export default function PersonalProjects() {
   return (
@@ -22,10 +22,10 @@ export default function PersonalProjects() {
               <Link to="/gallery">The Yeʋekpɔme Gallery</Link>
             </p>
             <p className="mg0">
-              Starting in Q2 2024, I will be putting up my paintings online for
-              sale. You should (definitely) order one.
+              Starting in Q2 2024, I will be putting up my paintings and digital
+              illustrations online for sale. You should (definitely) order one.
             </p>
-            <img src={gallery} alt="" />
+            <img src={gallery} alt="a photo of an illustration" />
           </div>
         </div>
 

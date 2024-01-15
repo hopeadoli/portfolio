@@ -53,14 +53,12 @@ p {
 }
 
 .leftText {
-  width: 70%;
+  width: 68%;
 }
 
 .myImg {
   float: right;
-  border-radius: 16px;
-  background-color: #171717;
-  height: 160px;
+  border-radius: 20px;
   width: 30%;
   margin-top: -176px;
 }
