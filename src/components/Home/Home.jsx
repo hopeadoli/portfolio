@@ -11,7 +11,10 @@ export default function Home() {
         <meta property="og:title" content="Hope Adoli" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://uxkafui.co" />
-        <meta property="og:image" content="https://uxkafui.co/og-image.png" />
+        <meta
+          property="og:image"
+          content="https://uxkafui.co/src/assets/og-image.png"
+        />
         <meta
           property="og:description"
           content="Product Designer, Developer, Artist, 
