@@ -11,6 +11,7 @@ export default function Home() {
         <title>Hope Adoli</title>
         <link rel="canonical" href="https://uxkafui.co" />
       </Helmet>
+      <div className="body"></div>
       <HeroSection />
       <Projects />
       <HomeFooter />
