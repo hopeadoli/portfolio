@@ -7,9 +7,18 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
-        <title>Hope Adoli</title>
-        <link rel="canonical" href="https://uxkafui.co" />
+        <meta property="og:title" content="Hope Adoli" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://uxkafui.co" />
+        <meta
+          property="og:image"
+          content="https://uxkafui.co/assets/og-image-iULTaCta.png"
+        />
+        <meta
+          property="og:description"
+          content="Product Designer, Developer, Artist, 
+Volunteer. An Individual Member of the Django Software Foundation."
+        />
       </Helmet>
       <div className="body"></div>
       <HeroSection />

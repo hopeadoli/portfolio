@@ -14,7 +14,10 @@ function App() {
         <meta property="og:title" content="Hope Adoli" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://uxkafui.co" />
-        <meta property="og:image" content={ogImage} />
+        <meta
+          property="og:image"
+          content="https://uxkafui.co/assets/og-image-iULTaCta.png"
+        />
         <meta
           property="og:description"
           content="Product Designer, Developer, Artist, 
