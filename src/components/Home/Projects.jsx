@@ -64,7 +64,7 @@ export default function Projects() {
           <img
             className="screenshot"
             src={MyNetwork}
-            alt="MyNetwork mobile app mockup"
+            alt="MyNetwork android mobile app mockup"
           />
         </div>
 
