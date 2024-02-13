@@ -8,6 +8,7 @@ import MizormorAgency from "../../assets/mizormor-agencies.png";
 import MizormorLanding from "../../assets/mizormor-landing.png";
 import AchieveApp from "../../assets/achieve.png";
 import GrainMate from "../../assets/grainmate.png";
+import MyNetwork from "../../assets/mynetwork.png";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
@@ -43,7 +44,7 @@ export default function Projects() {
         </div> */}
 
         {/* 2 MyNetwork App */}
-        {/* <div className="workContainer">
+        <div className="workContainer">
           <div className="projectText">
             <h2>
               MyNetwork <span>app</span>
@@ -55,16 +56,17 @@ export default function Projects() {
             Node’s routers for internet connectivity. The “MyNetwork” app helps
             them manage their routers and do so much more.
           </p>
-          <p className="link">
+          {/* <p className="link">
             AppStore
             <ArrowUpIcon />
-          </p>
+          </p> */}
+          <p>Coming soon ⏳</p>
           <img
             className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
+            src={MyNetwork}
+            alt="MyNetwork mobile app screenshot"
           />
-        </div> */}
+        </div>
 
         {/* 4 Korba mobile app */}
         {/* <div className="workContainer">
