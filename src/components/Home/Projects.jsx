@@ -8,7 +8,7 @@ import MizormorAgency from "../../assets/mizormor-agencies.png";
 import MizormorLanding from "../../assets/mizormor-landing.png";
 import AchieveApp from "../../assets/achieve.png";
 import GrainMate from "../../assets/grainmate.png";
-import MyNetwork from "../../assets/mynetwork.png";
+import MyNetwork from "../../assets/mynetwork-app.png";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
@@ -64,7 +64,7 @@ export default function Projects() {
           <img
             className="screenshot"
             src={MyNetwork}
-            alt="MyNetwork android mobile app mockup"
+            alt="MyNetwork app mockup"
           />
         </div>
 
