@@ -56,11 +56,18 @@ export default function Projects() {
             Node’s routers for internet connectivity. The “MyNetwork” app helps
             them manage their routers and do so much more.
           </p>
-          {/* <p className="link">
-            AppStore
-            <ArrowUpIcon />
-          </p> */}
-          <p>Coming soon ⏳</p>
+          <div>
+            <Link
+              className="divLink link"
+              to="https://dribbble.com/shots/23786236-MyNetwork-App-Router-and-Fibre-Management-app"
+              target="blank"
+            >
+              <p>
+                More details
+                <ArrowUpIcon />
+              </p>
+            </Link>
+          </div>
           <img
             className="screenshot"
             src={MyNetwork}
