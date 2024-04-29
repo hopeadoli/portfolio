@@ -8,6 +8,7 @@ import MizormorAgency from "../../assets/mizormor-agencies.png";
 import MizormorLanding from "../../assets/mizormor-landing.png";
 import AchieveApp from "../../assets/achieve.png";
 import GrainMate from "../../assets/grainmate.png";
+import KorbaApp from "../../assets/korba-app.png";
 import MyNetwork from "../../assets/mynetwork-app.png";
 import { Link } from "react-router-dom";
 
@@ -76,31 +77,30 @@ export default function Projects() {
         </div>
 
         {/* 4 Korba mobile app */}
-        {/* <div className="workContainer">
-          <div className="projectText">
-            <h2>
-              Korba mobile <span>app</span>
-            </h2>
-            <p>2024</p>
+        {
+          <div className="workContainer">
+            <div className="projectText">
+              <h2>
+                Korba mobile <span>app</span>
+              </h2>
+              <p>2024</p>
+            </div>
+            <p>
+              I teamed up with Halges Technologies to redesign their flagship
+              mobile app “Korba” which currently helps more than 300,000 people
+              to easily send and receive money, pay utilities and more.
+            </p>
+            <p>Coming soon ⏳</p>
+            <img
+              className="screenshot"
+              src={KorbaApp}
+              alt="habari website screenshot"
+            />
           </div>
-          <p>
-            I teamed up with Halges Technologies to redesign their flagship
-            mobile app “Korba” which currently helps more than 300,000 people to
-            easily send and receive money, pay utilities and more.
-          </p>
-          <p className="link">
-            AppStore
-            <ArrowUpIcon />
-          </p>
-          <img
-            className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
-          />
-        </div> */}
+        }
 
         {/* 5 Korba web app */}
-        <div className="workContainer">
+        {/* <div className="workContainer">
           <div className="projectText">
             <h2>
               Korba <span>web-app</span>
@@ -118,7 +118,7 @@ export default function Projects() {
             src={korbaWeb}
             alt="Korba web app screenshot"
           />
-        </div>
+        </div> */}
 
         {/* 6 Korba POS */}
         {/* <div className="workContainer">
@@ -147,7 +147,7 @@ export default function Projects() {
         <div className="workContainer">
           <div className="projectText">
             <h2>
-              Korba <span>website</span>
+              Korba <span>marketing website</span>
             </h2>
             <p>2023</p>
           </div>
@@ -177,6 +177,16 @@ export default function Projects() {
             book.
           </p>
           <div>
+            <Link
+              className="divLink link"
+              to="https://dribbble.com/shots/23174424-Mizormor-Trip-planning-app"
+              target="blank"
+            >
+              <p>
+                Details
+                <ArrowUpIcon />
+              </p>
+            </Link>
             <Link
               className="divLink link"
               to="https://apps.apple.com/gh/app/mizormor-plan-trips-tours/id1661002132"
@@ -210,6 +220,16 @@ export default function Projects() {
             operations.
           </p>
           <div>
+            <Link
+              className="divLink link"
+              to="https://dribbble.com/shots/22884911-Mizormor-Agencies"
+              target="blank"
+            >
+              <p>
+                Details
+                <ArrowUpIcon />
+              </p>
+            </Link>
             <Link
               className="divLink link"
               to="https://apps.apple.com/gh/app/mizormor-agencies/id6443749925"
@@ -275,6 +295,16 @@ export default function Projects() {
           <div>
             <Link
               className="divLink link"
+              to="https://dribbble.com/shots/22884386-Achieve-mobile-app"
+              target="blank"
+            >
+              <p>
+                Details
+                <ArrowUpIcon />
+              </p>
+            </Link>
+            <Link
+              className="divLink link"
               to="https://apps.apple.com/gb/app/achieve-save-and-invest/id1532635527?platform=iphone"
               target="blank"
             >
@@ -305,6 +335,16 @@ export default function Projects() {
             Losses (PHL).
           </p>
           <div>
+            <Link
+              className="divLink link"
+              to="https://dribbble.com/shots/22885425-Grainmate-mobile-app"
+              target="blank"
+            >
+              <p>
+                Details
+                <ArrowUpIcon />
+              </p>
+            </Link>
             <Link
               className="divLink link"
               to="https://play.google.com/store/apps/details?id=com.sesitechnologies.grainmateapp"

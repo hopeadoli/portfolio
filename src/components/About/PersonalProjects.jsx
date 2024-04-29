@@ -22,7 +22,7 @@ export default function PersonalProjects() {
               <Link to="/gallery">The Yeʋekpɔme Gallery</Link>
             </p>
             <p className="mg0">
-              Starting in Q2 2024, I will be putting up my paintings and digital
+              Starting in Q3 2024, I will be putting up my paintings and digital
               illustrations online for sale. You should (definitely) order one.
             </p>
             <img src={gallery} alt="a photo of an illustration" />

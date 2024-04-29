@@ -28,6 +28,8 @@ p link {
 
 .divLink {
   margin-top: 0;
+  float: inline-start;
+  padding-right: 24px;
 }
 
 .projectText {
