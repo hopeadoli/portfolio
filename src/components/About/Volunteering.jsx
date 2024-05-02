@@ -3,6 +3,7 @@ import DJCAfrica from "../../assets/pprojectlogos/DJCAfrica";
 import DjangoGirls from "../../assets/pprojectlogos/DjangoGirls";
 import DjangoLogo from "../../assets/pprojectlogos/DjangoLogo";
 import "./volunteering.css";
+import DCUS from "../../assets/pprojectlogos/DCUS";
 
 export default function Volunteering() {
   return (
@@ -26,6 +27,26 @@ export default function Volunteering() {
               The Django Software Foundation (DSF) exists to promote, support,
               and advance its open-source project: the Django Web framework. I
               am an individual contributor on the DSF board.
+            </p>
+          </div>
+        </div>
+
+        {/* DjangoCon US */}
+        <div className="project">
+          <div>
+            <DCUS />
+          </div>
+
+          <div className="projectDesc">
+            <p className="projectTitle">
+              <Link to="https://djangocon.us" target="blank">
+                DjangoCon US
+              </Link>
+            </p>
+            <p className="mg0">
+              DjangoCon US is a six-day international conference for the
+              community by the community, held each year in North America, about
+              the Django web framework.
             </p>
           </div>
         </div>
