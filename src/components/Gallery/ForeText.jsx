@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ForeText() {
   return (
     <div className={styles.QalissoText}>
-      <p className={styles.comingSoonHeader}>Opening in Q2 2024</p>
+      <p className={styles.comingSoonHeader}>Opening in H2 2025</p>
       <p>
         The Gallery will <br /> house my paintings
       </p>

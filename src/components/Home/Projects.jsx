@@ -18,32 +18,6 @@ export default function Projects() {
       <div className="projects">
         <p className="sectionHeader">work</p>
 
-        {/* 1 Habari website */}
-        {/* <div className="workContainer">
-          <div className="projectText">
-            <h2>
-              Habari Node <span>website</span>
-            </h2>
-            <p>2024</p>
-          </div>
-          <p>
-            Designed a marketing website for one of Tanzania’s most loved
-            Internet Service Providers.
-          </p>
-
-          <Link to="https://cnn.com" target="blank">
-            <p className="link">
-              Visit website
-              <ArrowUpIcon />
-            </p>
-          </Link>
-          <img
-            className="screenshot"
-            src={screenshot}
-            alt="habari website screenshot"
-          />
-        </div> */}
-
         {/* 2 MyNetwork App */}
         <div className="workContainer">
           <div className="projectText">

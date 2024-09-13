@@ -18,7 +18,7 @@ export default function HeroSection() {
           <p className={styles.sectionHeader}>about</p>
           <p>
             Hi and welcome. My name is Hope Adoli (ar doh lee), a product
-            designer currently based in Accra, Ghana. Over the past 7+ years, I
+            designer currently based in Accra, Ghana. Over the past few years, I
             have worked alongside business leaders, startup founders and
             individuals to build digital products that users love and cherish.
           </p>

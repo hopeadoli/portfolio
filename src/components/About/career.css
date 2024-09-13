@@ -48,7 +48,8 @@ p a:hover {
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  row-gap: 24px;
+  justify-content: space-between;
 }
 
 .clientLogos img {
@@ -64,6 +65,6 @@ p a:hover {
   }
 
   .clientLogos {
-    gap: 8px;
+    row-gap: 8px;
   }
 }
