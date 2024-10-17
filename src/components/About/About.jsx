@@ -17,7 +17,7 @@ export default function About() {
         <meta property="og:title" content="About⎯Hope Adoli" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://uxkafui.co/about" />
-        <meta property="og:image" content={ogImage} />
+        <meta property="og:image" content="/src/assets/og-image.png" />
         <meta
           property="og:description"
           content="Product Designer, Developer, Artist, Volunteer. An Individual Member of the Django Software Foundation."

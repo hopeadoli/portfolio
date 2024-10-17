@@ -10,7 +10,7 @@ export default function HomeFooter() {
     <>
       <div className="homeFooter">
         <p className="sectionHeader">get in touch</p>
-        <p>Now you know that we’re match made in heaven eh? Let’s talk.</p>
+        <p>Let’s talk.</p>
         <div className="socialIcons">
           <a href="https://dribbble.com/hopeadoli" target="blank">
             <DribbbleIcon />

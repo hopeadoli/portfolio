@@ -12,6 +12,7 @@
   margin-top: 16px;
   display: flex;
   gap: 12px;
+  width: max-content;
 }
 
 .socialIcons:hover {
