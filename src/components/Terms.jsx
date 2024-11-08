@@ -1,9 +1,35 @@
+import { Helmet } from "react-helmet";
 import HomeFooter from "./Home/HomeFooter";
 import styles from "./terms.module.css";
 
 export default function Terms() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Terms and Conditions⎯Hope Adoli</title>
+
+        <meta property="og:title" content="Terms and Conditions⎯Hope Adoli" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://uxkafui.co/about" />
+        <meta property="og:image" content="/src/assets/og-image.png" />
+        <meta
+          property="og:description"
+          content="Working terms and conditions for project collaborations"
+        />
+
+        {/* Twitter */}
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@uxkafui" />
+        <meta name="twitter:title" content="Terms and Conditions⎯Hope Adoli" />
+        <meta
+          name="twitter:description"
+          content="Working terms and conditions for project collaborations"
+        />
+        <meta name="twitter:image" content={ogImage} />
+      </Helmet>
+
       <h1 className={styles.heading}>
         Terms <span>& Conditions</span>
       </h1>
