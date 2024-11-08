@@ -34,12 +34,14 @@ export default function About() {
         />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
-      <Hero />
-      <Career />
-      <PersonalProjects />
-      <Volunteering />
-      <Speaking />
-      <AboutFooter />
+      <div>
+        <Hero />
+        <Career />
+        <PersonalProjects />
+        <Volunteering />
+        <Speaking />
+        <AboutFooter />
+      </div>
     </>
   );
 }

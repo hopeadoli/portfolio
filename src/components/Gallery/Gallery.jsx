@@ -6,7 +6,7 @@ import ogImage from "../../assets/og-image.png";
 
 export default function Gallery() {
   return (
-    <div className={styles.body}>
+    <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>The Yeʋekpɔme Gallery by Hope Adoli</title>
@@ -37,8 +37,10 @@ export default function Gallery() {
         />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
-      <ForeText />
-      <Images />
-    </div>
+      <div className={styles.body}>
+        <ForeText />
+        <Images />
+      </div>
+    </>
   );
 }
