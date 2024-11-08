@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import NoPage from "./components/NoPage";
 import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import Terms from "./components/Terms";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<NoPage />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </>
   );
