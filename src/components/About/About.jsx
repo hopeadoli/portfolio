@@ -1,4 +1,3 @@
-import AboutFooter from "./AboutFooter";
 import Career from "./Career";
 import Hero from "./Hero";
 import PersonalProjects from "./PersonalProjects";
@@ -40,7 +39,6 @@ export default function About() {
         <PersonalProjects />
         <Volunteering />
         <Speaking />
-        <AboutFooter />
       </div>
     </>
   );

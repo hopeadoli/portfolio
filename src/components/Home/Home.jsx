@@ -1,5 +1,4 @@
 import HeroSection from "./HeroSection";
-import HomeFooter from "./HomeFooter";
 import Projects from "./Projects";
 import { Helmet } from "react-helmet";
 import ogImage from "../../assets/og-image.png";
@@ -37,7 +36,6 @@ export default function Home() {
       <div className="body"></div>
       <HeroSection />
       <Projects />
-      <HomeFooter />
     </>
   );
 }

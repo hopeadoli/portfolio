@@ -1,4 +1,3 @@
-import HomeFooter from "./Home/HomeFooter";
 import styles from "./terms.module.css";
 
 export default function Terms() {
@@ -275,7 +274,6 @@ export default function Terms() {
           Twitter and Instagram
         </p>
         <hr />
-        <HomeFooter />
       </div>
     </>
   );
